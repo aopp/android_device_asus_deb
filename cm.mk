@@ -1,4 +1,3 @@
-
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1200
@@ -18,9 +17,9 @@ $(call inherit-product, device/asus/deb/full_deb.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := deb
-PRODUCT_NAME := cm_deb
+PRODUCT_NAME := aopp_deb
 PRODUCT_BRAND := google
-PRODUCT_MODEL := Nexus 7
+PRODUCT_MODEL := Pwn Pad
 PRODUCT_MANUFACTURER := asus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
