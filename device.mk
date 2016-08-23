@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
 PRODUCT_PACKAGES += \
-	camera.deb
+    camera.deb
 
 #NFC
 PRODUCT_PACKAGES += \
@@ -35,14 +35,14 @@ PRODUCT_PACKAGES += \
 
 # Do not power down SIM card when modem is sent to Low Power Mode.
 PRODUCT_PROPERTY_OVERRIDES += \
-        persist.radio.apm_sim_not_pwdn=1
+    persist.radio.apm_sim_not_pwdn=1
 
 #Stop rild if non 3G SKU
 PRODUCT_PACKAGES += \
-        init.qcom.class_main.sh
+    init.qcom.class_main.sh
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-        rild.libpath=/system/lib/libril-qc-qmi-1.so
+    rild.libpath=/system/lib/libril-qc-qmi-1.so
 
 # the actual meat of the device-specific product definition
 $(call inherit-product, device/asus/flo/device-common.mk)
