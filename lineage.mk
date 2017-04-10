@@ -19,9 +19,9 @@ $(call inherit-product-if-exists, vendor/asus/deb/device-vendor.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := deb
-PRODUCT_NAME := lineage_deb
+PRODUCT_NAME := aopp_deb
 PRODUCT_BRAND := google
-PRODUCT_MODEL := Nexus 7
+PRODUCT_MODEL := Pwn Pad
 PRODUCT_MANUFACTURER := asus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
